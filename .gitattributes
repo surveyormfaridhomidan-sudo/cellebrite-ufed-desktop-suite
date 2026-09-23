@@ -1,0 +1,16 @@
+# Exclude build artifacts
+# Generated on 2026-11-05
+
+docs/**/*.html linguist-vendored
+
+build/* linguist-vendored
+
+src/**/*.ts linguist-detectable
+
+*.map linguist-generated
+
+*.woff2 binary
+docs/** linguist-vendored
+package-lock.json linguist-generated
+*.yml linguist-detectable=false
+# eof b38f4558

@@ -1,0 +1,8 @@
+name: "cellebrite-ufed-desktop-suite"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
