@@ -1,0 +1,10 @@
+*.log
+.env
+.next/
+.pnpm-store/
+*.tgz
+yarn-error.log*
+build/
+.env.local
+.cache/
+dist/
